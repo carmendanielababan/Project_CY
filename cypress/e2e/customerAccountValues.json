@@ -1,0 +1,37 @@
+{
+    "mainPageValues": {
+        "url": "https://www.fashiondays.ro/",
+        "emailValid": "carmenfortest1@gmail.com",
+        "emailInvalid": "carmenfortest@gmail.com",
+        "passwordValid": "carmentest",
+        "faildLoginMessageError": "Adresa de email sau parola este incorecta.",
+        "myAccountText": "Contul Meu",
+
+        "destinatarName": "Ionela Pop",
+        "destinatarEmail": "ionelapop@test.com",
+        "destinatarConfirmationEmail": "ionelapop@test.com",
+        "senderName": "Maria Popescu",
+        "message": "Happy Birthday!",
+
+        "emptyBasketMessage" : "Cosul tau e gol acum, hai sa il umpli cu tot ce vrei sa porti maine!",
+
+        "searchProduct" : "ceas",
+
+        "addFavoriteMassage" : "Produsul a fost adaugat in Favorite.",
+        "addFavoriteMessage2" : "Produsul se afla deja in lista. A fost mutat la inceputul listei.",
+        "emptyFavoriteMessage" : "Inca nu ai produse adaugate aici, dar cu siguranta ai de unde alege. Cauta si salveaza-le pe cele pe gustul tau!",
+        "Aricle" : "Articole intre 50-100 lei",
+        
+        "materialSilver" : "Material: argint",
+        "fullName" : "Mihaela Oltean",
+        "phoneNumber" : "798588554",
+        "judet" : "Bihor",
+        "city" : "Oradea",
+        "address" : "Main Street 125",
+        "additionalInfo" : "Home",
+        "brandName" : "Furla"
+    }
+
+}
+
+   

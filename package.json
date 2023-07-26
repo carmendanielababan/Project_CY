@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "cypress": "^12.17.0"
+  },
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "author": "Carmen",
+  "main": "index.js",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "esbuild": "^0.18.11",
+    "save-dev": "^0.0.1-security"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "html" : {
+      "enabled": true,
+      "output": "cypress/reports/cucumber-html/cucumber-report.html"
+    },
+    "messages": {
+      "enabled": true,
+      "output": "cypress/reports/cucumber-ndjson/cucumber-report.ndjson"
+    }
+  }
+}
