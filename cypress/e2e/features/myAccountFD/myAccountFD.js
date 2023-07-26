@@ -74,10 +74,11 @@ When('The user fill in INFORMATII SUPLIMENTARE', () => {
     action.typeText(customerAccountIdentifiers.additionalInfo, value.mainPageValues.additionalInfo)
 })
 When('The user click on SALVEAZA button', () => {
+    cy.intercept('POST', 'https://www.fashiondays.ro/api-shop/customer/50/address/update/0').as('loadPage')
     action.clickForce(customerAccountIdentifiers.saveAddress)
 })
-Then('The address is saved', () => {
+Then('The address is saved', () => { 
+    cy.wait('@loadPage').its('response.statusCode').should('eq', 200)
     action.containsText(customerAccountIdentifiers.addressDetails, value.mainPageValues.address)
-    cy.wait(3000)
     action.deleteAddress()
 })
