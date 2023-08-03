@@ -21,7 +21,7 @@ When('The user click on the Add Favorite button', () => {
 })
 Then('A message is displayed', () => {
     action.containsText(customerAccountIdentifiers.favoriteNotification, value.mainPageValues.addFavoriteMassage)
-    cy.wait(2000)
+    cy.wait(1000)
     action.emptyFavorite()
 
 })

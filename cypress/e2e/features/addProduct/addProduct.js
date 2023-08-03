@@ -21,9 +21,9 @@ When('The user select BRANDURI PREMIUM > FURLA', () => {
 })
 When('The user select CEL MAI MARE PRET', () => {
     action.clickButton(customerAccountIdentifiers.filterDropDown)
-    cy.wait(500)
+    cy.wait(200)
     action.clickButton(customerAccountIdentifiers.biggerPrice)
-    cy.wait(500)
+    cy.wait(200)
 })
 When('The user select the first product', () => {
     action.selectProduct(customerAccountIdentifiers.firstProduct)

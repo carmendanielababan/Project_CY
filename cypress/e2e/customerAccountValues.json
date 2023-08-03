@@ -29,7 +29,11 @@
         "city" : "Oradea",
         "address" : "Main Street 125",
         "additionalInfo" : "Home",
-        "brandName" : "Furla"
+        "brandName" : "Furla",
+
+        "filterByCategory" : "filterByCategory"
+
+        
     }
 
 }

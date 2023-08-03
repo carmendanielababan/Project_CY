@@ -18,12 +18,13 @@ class CustomerAccountIdentifiers {
     giftMessage = ':nth-child(2) > :nth-child(3) > .gift-cards__form-group-input'
     buyCardBtn = ':nth-child(4) > .btn'
 
-    // Selector for baschet page
+    // Selectors for basket page
     deletebtn = '.cart-product-remove'
     emptyBaschetmessage = '.empty-cart > .row > .col-xs-12 > h3'
     baschetBtn = '#customer-basket'
     baschetItemsContainer = '#full-site-canvas'
 
+    // Selectors for favorite feature
     searchBtn = '#mobile-search'
     searchInput = '#search-input'
     searchContainer = '#search-container__results'
@@ -36,7 +37,7 @@ class CustomerAccountIdentifiers {
     deleteFavorite = '.wishlist-product-actions > .submit'
     emptyFavoriteListMsg = '.inner-white-box > .row > .col-xs-12 > span'
 
-
+    //Selectors for outlet feature
     outletSection = '.main-menu__nav > :nth-child(8) > :nth-child(1)'
     popover = '.main-menu__nav > li:nth-child(8) > div:nth-child(2)'
     article50100 = '.main-menu__nav li:nth-of-type(8) [data-item-type="8"]:nth-child(20) .main-menu__item-child__title'

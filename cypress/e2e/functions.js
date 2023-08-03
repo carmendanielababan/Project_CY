@@ -105,5 +105,9 @@ export const action = {
         cy.get(customerAccountIdentifiers.deleteAddress).click()
         cy.get(customerAccountIdentifiers.confirmDeleteAddress).click({ force: true })
     },
+    filterProducts(category, filter){
+        cy.get(category).click({ force: true })
+        cy.wait('@'+filter).its('response.statusCode').should('eq', 200)
+    }
 }
 
